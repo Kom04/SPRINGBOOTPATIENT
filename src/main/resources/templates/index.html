@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Page</title>
+<link href="css/custom.css" rel="stylesheet">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+	<section class="vh-100 gradient-custom">
+		<div class="container py-5 h-100">
+			<div class="row justify-content-center align-items-center h-100">
+				<div class="col-12 col-lg-9 col-xl-7">
+					<div class="card shadow-2-strong card-registration"
+						style="border-radius: 15px;">
+						<div class="card-body p-4 p-md-5">
+							<h1 class="mb-4 pb-2 pb-md-0 mb-md-5">QA Form</h1>
+							<h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Medications</h3>
+							<form id="myForm">
+
+
+								<div class="row">
+
+									<div class="col-md-6 mb-4">
+
+										<div class="form-outline">
+											<input type="text" id="Name" name="name"
+												class="form-control form-control-lg" /> <label
+												class="form-label" for="Name">Name</label>
+										</div>
+
+									</div>
+
+									<div class="col-12">
+
+										<select class="form-select form-select-lg mb-3"
+											name="frequency" aria-label=".form-select-lg example">
+											<option selected>Frequency</option>
+											<option value="2">Daily</option>
+											<option value="3">Weekly</option>
+											<option value="4">Quarterly</option>
+											<option value="4">Monthly</option>
+										</select> <label class="form-label select-label">Choose option</label>
+
+									</div>
+								</div>
+
+								<div class="row">
+
+									<div class="col-md-6 mb-4">
+
+										<div class="form-outline">
+											<input type="number" id="value" name="fad"
+												class="form-control form-control-lg" /> <label
+												class="form-label" for="value">No of times in a day</label>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="row">
+									<div class="col-md-6 mb-4">
+
+										<div class="form-outline datepicker">
+											<input type="text" class="form-control" name="startdate"
+												id="exampleDatepicker1" /> <label for="exampleDatepicker1"
+												class="form-label">Select startdate</label>
+										</div>
+
+									</div>
+
+									<div class="form-outline datepicker">
+										<input type="text" class="form-control" name="enddate"
+											id="exampleDatepicker1" /> <label for="exampleDatepicker1"
+											class="form-label">Select enddate</label>
+									</div>
+
+								</div>
+						</div>
+
+
+
+
+
+						<div class="row">
+							<div class="col-md-6 mb-4 pb-2">
+
+								<div class="form-outline">
+									<input type="text" id="appt" name="time"
+										class="form-control form-control-lg" /> <label
+										class="form-label" for="appt">Preferred Medication
+										time(in how many hours)</label>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="row">
+
+							<div class="col-md-6 mb-4">
+
+								<div class="form-outline">
+									<input type="text" id="value" name="tests"
+										class="form-control form-control-lg" /> <label
+										class="form-label" for="value">Any diagnosis/Lab
+										Test/Radiology/X ray Scheduled: Mark in Calendar</label>
+								</div>
+
+							</div>
+
+							<div class="col-12">
+
+								<select class="form-select form-select-lg mb-3" name="illness"
+									aria-label=".form-select-lg example">
+									<option selected>Suffering from any disease</option>
+									<option value="2">Diabetes</option>
+									<option value="3">Hypertesion</option>
+									<option value="4">Thyroid</option>
+									<option value="5">Asthama/Breathing issues</option>
+									<option value="6">Any lung infection</option>
+									<option value="7">Cradiac Arrest</option>
+									<option value="8">Kidney Stones</option>
+									<option value="9">Cirrhosis</option>
+									<option value="10">Cancer</option>
+									<option value="11">Liver Infection</option>
+									<option value="12">Other</option>
+
+								</select> <label class="form-label select-label">Choose option</label>
+
+							</div>
+
+							<div class="col-md-6 mb-4">
+
+								<div class="form-outline">
+									<input type="text" id="value" name="others"
+										class="form-control form-control-lg" /> <label
+										class="form-label" for="value">If other, please
+										specify</label>
+								</div>
+
+							</div>
+
+
+						</div>
+
+						<input type="submit" formtarget="_blank" id="mySubmit"
+							value="Submit">
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+
+</body>
+</html>
